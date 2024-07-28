@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/rk
+    username: root
+    password: 817376
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
